@@ -1,0 +1,40 @@
+<HOST windowleft="296" windowtop="150" windowwidth="851" windowheight="504">
+  <PLUGIN>
+    <CONFIG>
+      <TARGETHOST>127.0.0.1</TARGETHOST>
+      <TARGETPORT>4444</TARGETPORT>
+      <RECEIVEPORT>5555</RECEIVEPORT>
+      <OSCADDRESS>timeliner</OSCADDRESS>
+      <FRAMERATE>30</FRAMERATE>
+      <ENABLEOSC>True</ENABLEOSC>
+      <SHOWOSC>False</SHOWOSC>
+      <DEBUG>False</DEBUG>
+      <SPLITTER>424</SPLITTER>
+    </CONFIG>
+    <NODE nodename="Timeliner.dll|VVVV.Nodes.TimelinerPlugin">
+      <PIN pinname="Play" slicecount="1" values="0" />
+      <PIN pinname="Time In" slicecount="1" values="0.0000" />
+      <PIN pinname="Set Time" slicecount="1" values="0" />
+      <PIN pinname="Translate" slicecount="1" values="1.2047" />
+      <PIN pinname="Scale" slicecount="1" values="50.4494" />
+      <PIN pinname="GUI Settings" slicecount="1" values="&lt;GUI&gt;&lt;SPLITTER Position=&quot;60&quot; /&gt;&lt;TIMEBAR Mode=&quot;Follow&quot; /&gt;&lt;/GUI&gt;" />
+      <PIN pinname="Pin Settings" slicecount="5" values="&lt;PIN Name=&quot;Ruler0&quot; Type=&quot;Ruler&quot; SliceCount=&quot;0&quot; Height=&quot;20&quot; Parent=&quot;0&quot; /&gt;,&lt;PIN Name=&quot;Automata0&quot; Type=&quot;Automata&quot; SliceCount=&quot;1&quot; Height=&quot;40&quot; Parent=&quot;0&quot; AllInOne=&quot;False&quot; Collapsed=&quot;False&quot; /&gt;,&lt;PIN Name=&quot;Value0&quot; Type=&quot;Value&quot; SliceCount=&quot;1&quot; Height=&quot;150&quot; Parent=&quot;1&quot; AllInOne=&quot;False&quot; Collapsed=&quot;False&quot; InterpolationIn=&quot;Cubic&quot; Minimum=&quot;-1.0000&quot; Maximum=&quot;1.0000&quot; /&gt;,&lt;PIN Name=&quot;String0&quot; Type=&quot;String&quot; SliceCount=&quot;1&quot; Height=&quot;80&quot; Parent=&quot;1&quot; AllInOne=&quot;False&quot; Collapsed=&quot;False&quot; /&gt;,&lt;PIN Name=&quot;Color0&quot; Type=&quot;Color&quot; SliceCount=&quot;3&quot; Height=&quot;80&quot; Parent=&quot;1&quot; AllInOne=&quot;False&quot; Collapsed=&quot;False&quot; /&gt;" />
+      <PIN pinname="Automata0-Time0" slicecount="5" values="0.0000,3.2238,6.9941,10.0237,179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000" />
+      <PIN pinname="Automata0-Name0" slicecount="5" values="-INF,eins,drei,zwei,+INF" />
+      <PIN pinname="Automata0-Events0" slicecount="5" values="OnEnd next;,OnEnd zwei;,OnEnd eins;,OnEnd drei;,OnEnd pause;" />
+      <PIN pinname="Value0-Time0" slicecount="9" values="1.0896,2.4887,4.4331,6.1167,7.6106,9.3417,10.7170,12.3295,13.0408" />
+      <PIN pinname="Value0-Value0" slicecount="9" values="0.5067,-0.6933,0.3467,-0.5467,0.3600,-0.4667,0.4667,-0.2667,0.3200" />
+      <PIN pinname="Value0-InType0" slicecount="9" values="2,2,2,2,2,2,2,2,2" />
+      <PIN pinname="Value0-OutType0" slicecount="9" values="2,2,2,2,2,2,2,2,2" />
+      <PIN pinname="String0-Time0" slicecount="3" values="0.7577,4.0063,8.4643" />
+      <PIN pinname="String0-FlagY0" slicecount="3" values="0.4750,0.4750,0.2500" />
+      <PIN pinname="String0-Value0" slicecount="3" values="abera,simsalabimbambum,kadabera" />
+      <PIN pinname="Color0-Time0" slicecount="2" values="-0.2620,13.5862" />
+      <PIN pinname="Color0-Color0" slicecount="2" values="|0.00000,0.00000,0.00000,1.00000|,|0.96154,0.00000,0.00000,1.00000|" />
+      <PIN pinname="Color0-Time1" slicecount="2" values="-0.2620,13.5862" />
+      <PIN pinname="Color0-Color1" slicecount="2" values="|0.00000,1.00000,0.23077,0.00000|,|0.96154,0.00000,0.00000,1.00000|" />
+      <PIN pinname="Color0-Time2" slicecount="2" values="-0.2620,13.5862" />
+      <PIN pinname="Color0-Color2" slicecount="2" values="|0.00000,0.00000,0.00000,1.00000|,|0.96154,0.00000,0.00000,1.00000|" />
+    </NODE>
+  </PLUGIN>
+</HOST>

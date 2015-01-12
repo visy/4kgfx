@@ -1,0 +1,20 @@
+﻿Build started 15.12.2014 15:51:32.
+     1>Project "D:\dev\rocket\lib\librocket.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D SYNC_PLAYER /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt data.c device.c track.c
+         track.c
+         device.c
+         data.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(D:\dev\rocket\\lib\librocket.lib) does not match the Library's OutputFile property value (D:\dev\rocket\lib\librocket-playerd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1301,5): warning MSB8012: TargetName(librocket) does not match the Library's OutputFile property value (librocket-playerd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\dev\rocket\\lib\librocket-playerd.lib" /NOLOGO Debug\data.obj
+         Debug\device.obj
+         Debug\track.obj
+         librocket.vcxproj -> D:\dev\rocket\\lib\librocket.lib
+     1>Done Building Project "D:\dev\rocket\lib\librocket.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.44
